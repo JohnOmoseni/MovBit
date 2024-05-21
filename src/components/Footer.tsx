@@ -44,10 +44,10 @@ function Footer() {
 					</ul>
 				</div>
 
-				<ul className="mt-14 px-3 flex-row-btwn gap-4 max-[400px]:flex-wrap max-[400px]:!justify-start">
+				<ul className="mt-14 px-3 flex-row-btwn gap-4 max-[360px]:flex-wrap max-[360px]:!justify-start">
 					{footerLinks.map((footer, idx) => (
 						<Link
-							className="capitalize inline-block font-semibold tracking-wide text-[#968E8E]"
+							className="capitalize inline-block whitespace-pre-wrap font-semibold tracking-wide text-[#968E8E]"
 							href={footer.href}
 							title={footer.name}
 							key={idx}

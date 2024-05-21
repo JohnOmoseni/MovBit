@@ -28,16 +28,14 @@ function Hero() {
 				</Link>
 			</div>
 
-			<div className="relative md:flex-[1.5] flex justify-center min-w-[330px] w-full h-[400px] md:min-w-[400px] max-h-[500px] lg:h-[500px]  -z-10">
-				<div className="relative w-full  ">
-					<Image
-						src="/images/hero.png"
-						alt="hero"
-						fill
-						priority
-						className="object-contain"
-					/>
-				</div>
+			<div className="select-none relative md:flex-[1.5] flex justify-center min-w-[330px] w-full h-[400px] md:min-w-[400px] max-h-[500px] lg:h-[470px] -z-10">
+				<Image
+					src="/images/hero.png"
+					alt="hero"
+					fill
+					priority
+					className="!object-contain"
+				/>
 			</div>
 		</>
 	);

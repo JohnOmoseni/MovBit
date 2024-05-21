@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Raleway as FontSans } from "next/font/google";
+// import { Raleway as FontSans } from "next/font/google";
 
 import { cn } from "../lib/utils";
 import ReduxProvider from "./provider";
@@ -13,10 +13,10 @@ import "./utilities.css";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 
-export const fontSans = FontSans({
-	subsets: ["latin"],
-	variable: "--font-sans",
-});
+// export const fontSans = FontSans({
+// 	subsets: ["latin"],
+// 	variable: "--font-sans",
+// });
 
 export const metadata: Metadata = {
 	title: "MovBit",
@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={cn("font-sans", fontSans.variable)}>
+			<body className={cn("font-raleway")}>
 				<div className="wrapper">
 					<ScrollToTop />
 					<ReduxProvider>

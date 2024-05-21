@@ -31,7 +31,7 @@ const Card = ({ title, body, idx, svg }: FeatureProps) => {
 				whileInView="animate"
 				viewport={{ once: true, amount: 0.2 }}
 				custom={idx}
-				className={`max-sm:min-h-[50vh] h-full border border-[#e8e8e848] self-start drop-shadow-sm py-8 sm:pt-14 px-8 rounded-2xl transition-sm sm:odd:self-end flex-column gap-6 max-sm:!items-center select-none shadow-md`}
+				className={`max-sm:min-h-[30vh] h-full border border-[#e8e8e848] self-start drop-shadow-sm py-8 sm:pt-14 px-5 sm:px-8 rounded-2xl transition-sm sm:odd:self-end flex-column gap-6 max-sm:!items-center select-none shadow-md`}
 			>
 				<div className="">
 					<Image src={svg} alt="" className="" />

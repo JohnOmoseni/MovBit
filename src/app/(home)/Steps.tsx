@@ -40,7 +40,7 @@ function Steps() {
 
 						<div className="max-sm:pr-4">
 							<RevealAnimate delay={0.2}>
-								<span className="text-sm text-shadow-300 font-bold">
+								<span className="text-sm text-shadow-300 font-bold ml-1">
 									0{idx + 1}.
 								</span>
 							</RevealAnimate>

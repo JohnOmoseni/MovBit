@@ -30,15 +30,14 @@ const config = {
 					DEFAULT: "var(--primary)",
 					foreground: "var(--primary-foreground)",
 				},
-
 				accent: {
 					DEFAULT: "var(--accent)",
 					foreground: "var(--accent-foreground)",
 				},
 			},
 			fontFamily: {
-				raleway: ["Inter", "Arial", "sans-serif"],
-				sans: ["var(--font-sans)", ...fontFamily.sans],
+				raleway: ["Raleway", "Arial", "sans-serif"],
+				inter: ["Inter", "Arial", "sans-serif"],
 			},
 			fontSize: {
 				tiny: "0.7rem",
