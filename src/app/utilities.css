@@ -1,0 +1,154 @@
+/* Header */
+.nav-parent {
+	width: 100%;
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(158, 158, 255, 0.062);
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid #cecefb1f;
+	background-color: rgba(0, 0, 0, 0.4);
+	opacity: 1%;
+	z-index: -1;
+}
+.nav-links {
+	border: 1px solid rgba(206, 206, 251, 0.1);
+	box-shadow: inset 0px -4px 12px 0px rgba(206, 206, 251, 0.1);
+	background-color: #151e428f;
+	color: #cbcbe8;
+}
+
+.card {
+	border: 1px solid rgba(206, 206, 251, 0.12);
+	box-shadow: inset 0px -4px 12px 0px rgba(206, 206, 251, 0.1);
+	background-color: rgba(206, 206, 251, 0.12);
+	color: #cbcbe8;
+}
+
+.gradient-text {
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(
+		232deg,
+		#6663f6 10.98%,
+		#7190ff 20.31%,
+		#d8f9ae 60.17%
+	);
+}
+
+/* badge */
+.badge {
+	background: linear-gradient(
+		0deg,
+		rgba(206, 206, 251, 0.12),
+		rgba(206, 206, 251, 0.12)
+	);
+	border: 3px solid #cecefb1f;
+	box-shadow: inset 0px -4px 12px 0px rgba(206, 206, 251, 0.1);
+}
+
+/* btn style */
+.btn {
+	border: 1px solid #cecefb1f;
+	box-shadow: inset 0px -1px 10px 0px rgba(206, 206, 251, 0.1),
+		0px 2px 10px -2px rgba(0, 0, 0, 0.3);
+}
+
+/* card style */
+.card {
+	border-top: 1px solid rgba(206, 206, 251, 0.12);
+	box-shadow: inset 0px -3.225806713104248px 9.677419662475586px 0px rgba(206, 206, 251, 0.1);
+}
+
+.vector {
+	background: radial-gradient(
+			38.32% 52.12% at 35% 71.1%,
+			rgba(152, 88, 255, 0.12) 0%,
+			rgba(14, 3, 28, 0) 100%
+		)
+		/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+	position: absolute;
+	opacity: 0.2;
+	top: 69px;
+	left: 840px;
+	mix-blend-mode: screen;
+}
+
+.drop-shadow-thin {
+	filter: drop-shadow(0 0 2px #15bafbee);
+}
+
+.text-shadow-100 {
+	text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+.text-shadow-200 {
+	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+}
+.text-shadow-300 {
+	text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
+}
+.bg-gradient {
+	background-image: linear-gradient(
+		to top right,
+		#2600fc 20.3%,
+		/* #d8f9ae 80.17%, */ #ff00ea 100.31% /* #6663f6 150.98% */
+	);
+}
+.bg-gradient-200 {
+	background-image: linear-gradient(
+		80.52deg,
+		#86e6ac 20.3%,
+		#d8f9ae 80.17%,
+		#7190ff 100.31% /* #6663f6 150.98% */
+	);
+}
+
+.faq button:hover {
+	text-transform: none !important;
+}
+.faq > div:last-child > div {
+	border: none;
+}
+
+.img-newsletter {
+	background-repeat: no-repeat;
+	background-image: url("/svgs/circle-01.svg"), url("/svgs/x.svg"),
+		url("/svgs/dcoin.svg"), url("/svgs/ethereum.svg");
+	background-position: 6% 15%, 92% 10%, 10% 75%, 95% 90%;
+}
+
+.img-features {
+	background-repeat: no-repeat;
+	background-image: url("/svgs/circle-01.svg"), url("/svgs/x.svg"),
+		url("/svgs/circle-02.svg");
+	background-position: 8% 10%, bottom left, bottom right;
+}
+
+.img-stats {
+	background-repeat: no-repeat;
+	background-image: url("/svgs/eth.svg"), url("/svgs/bitcoin.svg");
+	background-position: 30% 100%, 75% 0%;
+}
+
+@media (min-width: 640px) {
+	.iekbcc0 ._9pm4ki5 {
+		position: fixed;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+@media (max-width: 768px) {
+	.img-newsletter {
+		background-position: 3% 10%, 97% 6%, 4% 80%, 98% 90%;
+	}
+}

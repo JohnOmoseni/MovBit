@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* @font-face {
+	font-family: "Raleway";
+	src: url("/fonts/Raleway-SemiBold.ttf");
+} */
+
+@layer base {
+	:root {
+		--background: #060a1a;
+		--foreground: 224 71.4% 4.1%;
+
+		--card: 0 0% 100%;
+		--card-foreground: 224 71.4% 4.1%;
+
+		--primary: white;
+		--primary-foreground: #b7b4bb;
+
+		--gray: #968e8e;
+
+		--border: rgba(243, 243, 243, 0.4);
+		--input: 220 13% 91%;
+		--ring: 224 71.4% 4.1%;
+	}
+
+	h1 {
+		@apply text-primary font-bold;
+	}
+	h2 {
+		@apply text-primary font-semibold;
+	}
+	h3 {
+		@apply text-subtitle font-normal;
+	}
+}
+
+@layer utilities {
+	.row-flex {
+		@apply flex flex-row items-center align-middle justify-center flex-nowrap;
+	}
+	.flex-row-btwn {
+		@apply flex flex-row items-center align-middle justify-between flex-nowrap;
+	}
+	.flex-column {
+		@apply flex flex-col items-start justify-center;
+	}
+	.p-section {
+		padding: max(4%, 3em) 0 max(4%, 2rem);
+	}
+	.truncate {
+		@apply w-full text-ellipsis whitespace-nowrap overflow-hidden;
+	}
+	.i-reset {
+		@apply border-none outline-none focus:outline-none bg-transparent text-ellipsis focus-visible:ring-0 truncate whitespace-nowrap transition-all overflow-hidden;
+	}
+}
+
+@layer components {
+	.grid-mobile-features {
+		grid-auto-columns: minmax(min-content, 350px);
+	}
+	.grid-cols-features {
+		grid-template-columns: repeat(4, minmax(270px, 1fr));
+	}
+}
