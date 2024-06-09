@@ -6,7 +6,7 @@ import { navLinks } from "@/constants";
 import MenuLinks from "./MenuLinks";
 import { Dispatch, SetStateAction } from "react";
 import { animateMenu } from "@/lib/utils";
-// import CustomConnectButton from "./ConnectButton";
+import CustomConnectButton from "./ConnectButton";
 
 type Props = {
   setOpenMenu: Dispatch<SetStateAction<boolean>>;
@@ -40,7 +40,7 @@ function Menu({ setOpenMenu }: Props) {
           ))}
         </nav>
 
-        {/* <CustomConnectButton /> */}
+        <CustomConnectButton />
       </div>
     </motion.div>
   );

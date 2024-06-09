@@ -3,7 +3,6 @@
 import { Button } from "@/components/Button";
 import Card from "@/components/movbit/Card";
 import Header from "@/components/movbit/Header";
-import { IoIosSwap } from "react-icons/io";
 
 import { IoWalletOutline } from "react-icons/io5";
 import { IoMdSwap } from "react-icons/io";
@@ -41,9 +40,9 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="mx-auto mb-[15vh] mt-[3rem]">
+      <div className="mx-auto mb-[12vh] mt-[3rem]">
         <h2 className="text-3xl tracking-wide">Account Details</h2>
-        <Card containerClassName="my-6 sm:px-6 py-0">
+        <Card containerClassName="my-6 px-5 sm:px-6 py-2">
           {new Array(3).fill(null).map((item, idx) => (
             <Row key={idx} />
           ))}

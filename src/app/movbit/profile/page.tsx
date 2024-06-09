@@ -39,7 +39,7 @@ function Profile() {
 
       <Main />
 
-      <div className="flex-row-btwn mx-auto my-[3rem] w-[95%] gap-4">
+      <div className="flex-row-btwn mx-auto mb-10 mt-[3rem] w-[95%] gap-4">
         <div className="flex-column !items-center gap-2">
           <span className="shadow-text-100 text-base font-normal tracking-wide text-foreground text-opacity-50">
             Total steps generated

@@ -14,7 +14,7 @@ function StepsCount() {
           </h2>
         </div>
         <div className="flex-column w-full !items-end gap-1">
-          <p className="shadow-text-100 text-base font-semibold capitalize text-foreground-100">
+          <p className="shadow-text-100 text-end text-base font-semibold capitalize text-foreground-100">
             Daily countdown
           </p>
           <p className="text-shadow-100 font-semibold">10h:30m:49s</p>

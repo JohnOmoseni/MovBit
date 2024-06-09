@@ -29,7 +29,7 @@ function Header({ title, icon }: Props) {
           <IoChevronBackOutline size={22} className="text-foreground" />
         </span>
 
-        <h3 className="shadow-text-100 flex-1 text-center text-2xl tracking-wider text-foreground">
+        <h3 className="shadow-text-100 flex-1 text-center text-2xl text-foreground">
           {title}
         </h3>
 

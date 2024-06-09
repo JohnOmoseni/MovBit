@@ -5,7 +5,7 @@ function Benefits() {
     <div className="my-12">
       <h3 className="text-center text-3xl">What you get from Premium</h3>
 
-      <ul className="flex-column mx-auto mt-10 w-[95%] gap-2 overflow-hidden rounded-lg border-t-2 border-white/20 shadow-md">
+      <ul className="flex-column border-t-1 mx-auto mt-10 w-[95%] gap-2 overflow-hidden rounded-lg border-white/20 shadow-md">
         {benefits?.map((item, idx) => (
           <li
             key="idx"
