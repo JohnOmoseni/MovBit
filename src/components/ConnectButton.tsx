@@ -1,9 +1,14 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Button } from "./Button";
+import { twMerge } from "tailwind-merge";
 
-const className = " min-w-max py-3 px-10 mt-2 mb-6";
+const className = " min-w-max py-2.5 px-8";
 
-const CustomConnectButton = () => {
+const CustomConnectButton = ({
+  containerClassName,
+}: {
+  containerClassName: string;
+}) => {
   return (
     <ConnectButton.Custom>
       {({
@@ -29,7 +34,7 @@ const CustomConnectButton = () => {
                 userSelect: "none",
               },
             })}
-            className="row-flex mx-auto"
+            className={twMerge("row-flex mx-auto", containerClassName)}
           >
             {(() => {
               if (!connected) {
