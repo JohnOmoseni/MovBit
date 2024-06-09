@@ -59,11 +59,11 @@ const footer = [
 ];
 
 const benefits = [
-  "Earn double TREDS for every 1k steps above your daily step minting cap",
-  "Earn more TREDS with a higher minting cap: 6k steps will be converted into crypto",
-  "Avoid the daily cap and earn unlimited TREDS",
+  "Earn double Movbit for every 1k steps above your daily step minting cap",
+  "Earn more Movbit with a higher minting cap: 6k steps will be converted into crypto",
+  "Avoid the daily cap and earn unlimited Movbit",
   "Enjoy Premium Marketplace with special offers",
-  "Get your TREDS for good donations doubled to us",
+  "Get your Movbit for good donations doubled to us",
 ];
 
 export {

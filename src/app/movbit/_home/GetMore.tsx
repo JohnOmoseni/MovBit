@@ -13,7 +13,7 @@ function GetMore() {
     >
       <div className="">
         <h3 className="text-center text-3xl font-semibold leading-[1.2] max-sm:px-3 sm:text-4xl">
-          Get more $TREDS
+          Get more $Movbit
         </h3>
         <p className="mt-1 text-center text-lg font-semibold leading-6 tracking-wide text-foreground-100">
           Return in 24 hrs to win again
@@ -21,7 +21,7 @@ function GetMore() {
         <div className="my-8 grid place-items-center rounded-xl border border-white/60 px-8 py-8 shadow-sm">
           <p className="mb-3 text-xl">Added to Wallet</p>
           <h2 className="shadow-text-100 text-center text-4xl uppercase">
-            10 TREDS
+            10 Movbit
           </h2>
         </div>
 

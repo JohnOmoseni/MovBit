@@ -26,7 +26,7 @@ function Page() {
             </h2>
             <div className="row-flex mt-6 !justify-start gap-1.5">
               <span className="font-normal capitalize leading-5 !text-foreground-100">
-                Earned TREDS:
+                Earned Movbit:
               </span>
               <span className="!text-lg font-semibold">1,190.57</span>
             </div>
