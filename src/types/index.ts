@@ -2,9 +2,8 @@ import { LinkProps } from "next/link";
 import { IconType } from "react-icons/lib";
 import { useDispatch, useSelector } from "react-redux";
 import type { AppDispatch, RootState } from "@/redux/store";
-import React, { MouseEventHandler, ReactNode, SetStateAction } from "react";
+import React, { ReactNode } from "react";
 import { Url } from "url";
-import Pricing from "@/app/(movbit)/subscriptions/Pricing";
 
 export type NavLinkProps = React.PropsWithChildren<LinkProps> & {
   idx: number;
