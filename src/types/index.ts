@@ -38,7 +38,7 @@ export type PricingProps = {
   tag?: string;
   desc: string;
   price: number;
-  oldPrice: number;
+  yearlyPrice: number;
 };
 
 export type FeatureProps = {

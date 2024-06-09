@@ -24,7 +24,7 @@ function Hero() {
             title="Launch App"
             icon={GoArrowUpRight}
             dir="right"
-            className="mt-16 px-8 py-3.5 text-lg hover:drop-shadow-sm max-md:mx-auto md:mt-12"
+            className="mt-16 cursor-pointer px-8 py-3.5 text-lg hover:drop-shadow-sm max-md:mx-auto md:mt-12"
           />
         </Link>
       </div>

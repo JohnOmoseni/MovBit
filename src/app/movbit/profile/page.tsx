@@ -6,6 +6,7 @@ import { Button } from "@/components/Button";
 import Header from "@/components/movbit/Header";
 import Image from "next/image";
 import { clipboard, line } from "@/constants/movbit";
+import Link from "next/link";
 
 function Profile() {
   return (
@@ -31,10 +32,13 @@ function Profile() {
           <span className="uppercase tracking-wide text-white/40">Plan</span>
           <p className="shadow-text-100 text-3xl font-semibold">Free</p>
         </div>
-        <Button
-          title="Change"
-          className="bg-background-200 px-6 py-2.5 font-semibold"
-        />
+
+        <Link href="/subscriptions" className="">
+          <Button
+            title="Change"
+            className="bg-background-200 px-6 py-2.5 font-semibold"
+          />
+        </Link>
       </div>
 
       <Main />

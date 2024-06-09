@@ -20,13 +20,13 @@ const premium = [
     tag: "yearly",
     desc: "1 week for free",
     price: 50,
-    oldPrice: 60,
+    yearlyPrice: 60,
   },
   {
     tag: "monthly",
     desc: "1 week for free",
-    price: 50,
-    oldPrice: 60,
+    price: 5,
+    yearlyPrice: 60,
   },
 ];
 

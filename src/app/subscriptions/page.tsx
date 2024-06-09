@@ -15,7 +15,7 @@ function Subscription() {
       <Header title="Subscriptions" />
 
       <div className="flex-column mt-8 w-full !items-center gap-3">
-        <div className="relative h-[300px] w-[400px] min-w-[380px] px-2">
+        <div className="relative h-[300px] w-[400px] min-w-[380px] select-none px-2">
           <Image src={subscription} alt="" className="!object-contain" fill />
         </div>
         <h2 className="shadow-text-100 text-3xl font-semibold sm:text-4xl">

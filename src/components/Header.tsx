@@ -7,6 +7,7 @@ import { navLinks } from "@/constants";
 import LinkRow from "./LinkRow";
 import Menu from "./Menu";
 import { AnimatePresence } from "framer-motion";
+import { Button } from "./Button";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -39,7 +40,7 @@ const Header = () => {
           {openMenu && <Menu setOpenMenu={setOpenMenu} />}
         </AnimatePresence>
 
-        {/* <Button title="Connect Wallet" className="text-sm hidden md:block" /> */}
+        <Button title="Connect Wallet" className="hidden text-sm md:block" />
       </div>
     </header>
   );
