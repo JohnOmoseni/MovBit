@@ -7,7 +7,7 @@ const className = " min-w-max py-2.5 px-8";
 const CustomConnectButton = ({
   containerClassName,
 }: {
-  containerClassName: string;
+  containerClassName?: string;
 }) => {
   return (
     <ConnectButton.Custom>
