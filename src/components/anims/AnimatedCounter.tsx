@@ -22,7 +22,7 @@ function AnimatedCounter({
   animationProps,
 }: AnimatedCounterProps) {
   const spanRef = useRef<HTMLSpanElement>(null);
-  const inView = useInView(spanRef, { amount: 0.1 });
+  const inView = useInView(spanRef, { amount: 0.1, once: true });
 
   useIsomorphicLayoutEffect(() => {
     const element = spanRef.current;
