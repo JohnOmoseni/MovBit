@@ -1,21 +1,34 @@
+import AnimatedCounter from "@/components/anims/AnimatedCounter";
 import { stats } from "@/constants";
 
 const Stats = () => {
-	return (
-		<div className="grid place-items-center relative  img-stats">
-			<ul className="flex-column max-sm:!items-center sm:flex-row-btwn sm:!flex-wrap gap-4 py-6 px-4 rounded-lg">
-				{stats?.map((stat, idx) => (
-					<li
-						key={idx}
-						className="max-sm:w-full flex-column max-sm:border border-white/5 rounded-md max-sm:shadow-lg !items-center relative gap-4 py-4 px-8 md:px-[4.5rem] last-of-type:after:h-0 after:absolute after:bg-border after:h-[70%] after:w-[2px] after:right-0 after:rounded-full max-lg:after:w-0"
-					>
-						<h3 className="text-white text-2xl">{stat.stat}</h3>
-						<p className="text-sm text-center">{stat.tag}</p>
-					</li>
-				))}
-			</ul>
-		</div>
-	);
+  return (
+    <div className="img-stats relative grid place-items-center">
+      <ul className="flex-column sm:flex-row-btwn gap-4 rounded-lg px-4 py-6 max-sm:!items-center sm:!flex-wrap">
+        {stats?.map((stat, idx) => (
+          <li
+            key={idx}
+            className="flex-column relative !items-center gap-4 rounded-md border-white/5 px-8 py-4 after:absolute after:right-0 after:h-[70%] after:w-[2px] after:rounded-full after:bg-border last-of-type:after:h-0 max-lg:after:w-0 max-sm:w-full max-sm:border max-sm:shadow-lg md:px-[4.5rem]"
+          >
+            <h3 className="font-mono text-2xl text-white">
+              {stat?.tag.includes("Estimated value") ? (
+                <span>
+                  <AnimatedCounter from={0} to={stat.stat} showDecimal />x
+                </span>
+              ) : (
+                <span>
+                  <AnimatedCounter from={0} to={stat.stat} />
+                  k+
+                </span>
+              )}
+            </h3>
+            {/* <h3 className="text-white text-2xl">{stat.stat}</h3> */}
+            <p className="text-center text-sm">{stat.tag}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 
 export default Stats;

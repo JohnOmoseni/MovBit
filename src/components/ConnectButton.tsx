@@ -44,9 +44,6 @@ const CustomConnectButton = ({
                     className={className}
                     onClick={openConnectModal}
                   />
-                  // <button onClick={openConnectModal} type="button">
-                  // 	Connect Wallet
-                  // </button>
                 );
               }
               if (chain.unsupported) {
@@ -56,9 +53,6 @@ const CustomConnectButton = ({
                     className={className}
                     onClick={openChainModal}
                   />
-                  // <button onClick={openChainModal} type="button">
-                  // 	Wrong network
-                  // </button>
                 );
               }
               return (

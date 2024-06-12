@@ -26,7 +26,7 @@ export const Button = ({
       type={type || "button"}
       onClick={onClick}
       className={twMerge(
-        `row-flex bg-gradient transition-md relative min-w-[100px] cursor-pointer overflow-hidden rounded-full px-6 py-2.5 text-base leading-6 text-white transition-colors hover:scale-105 focus:outline-none focus:ring-1 focus:ring-ring focus:ring-offset-1 active:scale-95 active:shadow-md ${
+        `row-flex bg-gradient transition-md relative min-w-[100px] cursor-pointer overflow-hidden rounded-full px-6 py-2.5 text-base leading-6 text-white transition-colors hover:rotate-1 hover:scale-105 focus:outline-none focus:ring-1 focus:ring-ring focus:ring-offset-1 active:scale-95 active:shadow-md ${
           Icon && "gap-2"
         }`,
         className,

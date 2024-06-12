@@ -90,19 +90,19 @@ export const features = [
 
 export const stats = [
   {
-    stat: "400k+",
+    stat: 400,
     tag: "Wallets Connected",
   },
   {
-    stat: "20k+",
+    stat: 20,
     tag: "Wallets Connected",
   },
   {
-    stat: "230k+",
+    stat: 230,
     tag: "Steps taken",
   },
   {
-    stat: "2.5x",
+    stat: 2.5,
     tag: "Estimated value",
   },
 ];

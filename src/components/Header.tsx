@@ -40,7 +40,7 @@ const Header = () => {
           {openMenu && <Menu setOpenMenu={setOpenMenu} />}
         </AnimatePresence>
 
-        <CustomConnectButton containerClassName="mx-0" />
+        <CustomConnectButton containerClassName="mx-0 max-md:hidden" />
       </div>
     </header>
   );

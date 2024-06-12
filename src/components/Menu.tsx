@@ -40,7 +40,7 @@ function Menu({ setOpenMenu }: Props) {
           ))}
         </nav>
 
-        <CustomConnectButton />
+        <CustomConnectButton containerClassName="mb-6" />
       </div>
     </motion.div>
   );
