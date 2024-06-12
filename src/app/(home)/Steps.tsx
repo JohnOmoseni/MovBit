@@ -17,7 +17,7 @@ function Steps() {
             key={idx}
             className={`${
               idx % 2 === 0 ? " " : "sm:!flex-row-reverse"
-            } flex-column sm:row-flex relative gap-8 max-sm:flex-col-reverse lg:gap-[8em]`}
+            } flex-column sm:row-flex relative gap-14 max-sm:flex-col-reverse lg:gap-[8em]`}
           >
             <RevealAnimate delay={0.8} className="relative">
               <div className="relative mx-auto h-[400px] w-full max-w-[400px] max-sm:min-w-[260px] sm:min-w-[300px] md:max-w-[700px]">
@@ -57,6 +57,7 @@ function Steps() {
                 <Link href={item.link} className="mt-12 block">
                   <Button
                     title="Learn more"
+                    dir="right"
                     className="px-7 py-2.5"
                     icon={GoArrowUpRight}
                   />
